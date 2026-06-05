@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="base:app_id" content="[base.dev Verify token]" />
+        <meta name="base:app_id" content="6a229fadab28df7fd2fc1628" />
       </head>
       <body>
         <Providers>{children}</Providers>
