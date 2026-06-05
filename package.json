@@ -11,6 +11,7 @@
   "dependencies": {
     "@tanstack/react-query": "^5.90.12",
     "next": "16.2.7",
+    "ox": "^0.14.27",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "viem": "^2.43.1",
