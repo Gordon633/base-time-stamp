@@ -1,7 +1,7 @@
 import type { Address } from "viem";
 
 export const BASE_TIME_STAMP_ADDRESS =
-  "0x136aa14149f2ba0fab862dcc58efd5dd3369bb88" as Address;
+  "0xe17c3b59d5ef2b6421d13d0a96fc60658c10bcb3" as Address;
 
 export const baseTimeStampAbi = [
   {
