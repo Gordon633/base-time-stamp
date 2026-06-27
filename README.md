@@ -90,3 +90,9 @@ Open the deployed application in a supported environment.
 Use the dashboard to create timestamp records on Base.
 
 Each successful interaction records a timestamp through the configured `BaseTimeStamp` contract.
+
+## Deployment Notes
+
+Make sure the contract address in `lib/abi.ts` matches the contract deployed on Base mainnet.
+
+Make sure the `base:app_id` value in `app/layout.tsx` matches the app configuration.
