@@ -52,3 +52,9 @@ Deploy `contracts/BaseTimeStamp.sol` on Base mainnet.
 After deployment, copy the deployed contract address.
 
 ### 2. Configure the contract address
+
+Open `lib/abi.ts`.
+
+Replace `BASE_TIME_STAMP_ADDRESS` with the deployed contract address.
+
+### 3. Configure app metadata
