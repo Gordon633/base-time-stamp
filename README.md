@@ -71,3 +71,8 @@ Set the value as follows:
 
 ```ts
 BUILDER_CODE = "bc_..."
+```
+
+The app generates the ERC-8021 `dataSuffix` automatically from this value.
+
+### 5. Redeploy the frontend
