@@ -64,3 +64,10 @@ Open `app/layout.tsx`.
 Replace the hard-coded `base:app_id` meta tag with the correct app identifier for your deployment.
 
 ### 4. Configure builder attribution
+
+After base.dev returns a builder code, open `lib/wagmi.ts`.
+
+Set the value as follows:
+
+```ts
+BUILDER_CODE = "bc_..."
