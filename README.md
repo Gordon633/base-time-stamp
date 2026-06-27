@@ -102,3 +102,9 @@ Make sure the builder code in `lib/wagmi.ts` is set before redeploying.
 If any of these values are missing or incorrect, timestamp creation or attribution verification may not work as expected.
 
 ## Verification Checklist
+
+Before considering the deployment complete, confirm the following:
+
+- `contracts/BaseTimeStamp.sol` has been deployed on Base mainnet.
+- `BASE_TIME_STAMP_ADDRESS` has been replaced in `lib/abi.ts`.
+- The `base:app_id` meta tag has been updated in `app/layout.tsx`.
