@@ -41,3 +41,8 @@ Key files referenced by the setup process:
 - `contracts/BaseTimeStamp.sol`
 - `lib/abi.ts`
 - `app/layout.tsx`
+- `lib/wagmi.ts`
+
+## Setup
+
+### 1. Deploy the contract
