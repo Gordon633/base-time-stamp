@@ -114,3 +114,9 @@ Before considering the deployment complete, confirm the following:
 - Onchain attribution has been verified in base.dev.
 
 ## Notes
+
+This README only describes the setup steps that are required by the current project configuration.
+
+Review the contract and frontend code before deploying changes to production.
+
+Keep deployment-specific values consistent across the contract, frontend, and base.dev configuration.
