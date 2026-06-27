@@ -76,3 +76,9 @@ BUILDER_CODE = "bc_..."
 The app generates the ERC-8021 `dataSuffix` automatically from this value.
 
 ### 5. Redeploy the frontend
+
+Redeploy the application to Vercel after updating the configuration files.
+
+### 6. Verify attribution
+
+After deployment, verify both offchain and onchain attribution in base.dev.
