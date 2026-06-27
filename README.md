@@ -27,3 +27,11 @@ The main workflow is:
 - Includes app metadata configuration in `app/layout.tsx`.
 - Includes Base attribution configuration in `lib/wagmi.ts`.
 - Generates the ERC-8021 `dataSuffix` from the configured builder code.
+
+## Repository
+
+Repository URL:
+
+https://github.com/Gordon633/base-time-stamp.git
+
+## Project Structure
