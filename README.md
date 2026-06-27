@@ -82,3 +82,11 @@ Redeploy the application to Vercel after updating the configuration files.
 ### 6. Verify attribution
 
 After deployment, verify both offchain and onchain attribution in base.dev.
+
+## Usage
+
+Open the deployed application in a supported environment.
+
+Use the dashboard to create timestamp records on Base.
+
+Each successful interaction records a timestamp through the configured `BaseTimeStamp` contract.
