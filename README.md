@@ -16,3 +16,9 @@ The main workflow is:
 4. Configure attribution settings.
 5. Redeploy the frontend.
 6. Verify attribution and contract interaction behavior.
+
+## Features
+
+- Minimal dashboard interface.
+- Built for Base.
+- Supports recording onchain timestamps.
