@@ -46,3 +46,9 @@ Key files referenced by the setup process:
 ## Setup
 
 ### 1. Deploy the contract
+
+Deploy `contracts/BaseTimeStamp.sol` on Base mainnet.
+
+After deployment, copy the deployed contract address.
+
+### 2. Configure the contract address
