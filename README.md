@@ -22,3 +22,8 @@ The main workflow is:
 - Minimal dashboard interface.
 - Built for Base.
 - Supports recording onchain timestamps.
+- Uses `contracts/BaseTimeStamp.sol` as the core contract.
+- Includes ABI configuration in `lib/abi.ts`.
+- Includes app metadata configuration in `app/layout.tsx`.
+- Includes Base attribution configuration in `lib/wagmi.ts`.
+- Generates the ERC-8021 `dataSuffix` from the configured builder code.
