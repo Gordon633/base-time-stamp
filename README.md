@@ -35,3 +35,9 @@ Repository URL:
 https://github.com/Gordon633/base-time-stamp.git
 
 ## Project Structure
+
+Key files referenced by the setup process:
+
+- `contracts/BaseTimeStamp.sol`
+- `lib/abi.ts`
+- `app/layout.tsx`
