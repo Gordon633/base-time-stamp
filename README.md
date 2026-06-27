@@ -58,3 +58,9 @@ Open `lib/abi.ts`.
 Replace `BASE_TIME_STAMP_ADDRESS` with the deployed contract address.
 
 ### 3. Configure app metadata
+
+Open `app/layout.tsx`.
+
+Replace the hard-coded `base:app_id` meta tag with the correct app identifier for your deployment.
+
+### 4. Configure builder attribution
