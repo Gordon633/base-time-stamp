@@ -135,3 +135,11 @@ Before considering the deployment complete, confirm the following:
 ## Troubleshooting
 
 If timestamp creation does not work, first confirm that the contract address is correct.
+
+If attribution verification does not work, confirm the app metadata and builder code values.
+
+If changes do not appear in the deployed application, redeploy the frontend.
+
+If the frontend points to an outdated contract, update `lib/abi.ts` and redeploy.
+
+## Notes
