@@ -120,3 +120,11 @@ Review all deployment-specific values before publishing changes.
 ## Verification Checklist
 
 Before considering the deployment complete, confirm the following:
+
+- `contracts/BaseTimeStamp.sol` has been deployed on Base mainnet.
+- `BASE_TIME_STAMP_ADDRESS` has been replaced in `lib/abi.ts`.
+- The configured contract address matches the deployed contract.
+- The `base:app_id` meta tag has been updated in `app/layout.tsx`.
+- `BUILDER_CODE` has been set in `lib/wagmi.ts`.
+- The frontend has been redeployed to Vercel.
+- The deployed application opens correctly.
