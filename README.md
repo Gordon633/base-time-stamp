@@ -58,3 +58,11 @@ This address is required by the frontend so it can call the correct contract.
 ### 2. Configure the contract address
 
 Open `lib/abi.ts`.
+
+Replace `BASE_TIME_STAMP_ADDRESS` with the deployed `BaseTimeStamp` contract address.
+
+Make sure the value points to the contract deployed on Base mainnet.
+
+### 3. Configure app metadata
+
+Open `app/layout.tsx`.
