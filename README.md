@@ -90,3 +90,9 @@ Redeploy the application to Vercel after updating the configuration files.
 A redeploy is required for the new contract address, metadata, and attribution settings to take effect.
 
 ### 6. Verify attribution
+
+After deployment, verify both offchain and onchain attribution in base.dev.
+
+Also confirm that the frontend can interact with the configured `BaseTimeStamp` contract.
+
+## Usage
