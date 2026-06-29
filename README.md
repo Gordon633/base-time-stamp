@@ -96,3 +96,11 @@ After deployment, verify both offchain and onchain attribution in base.dev.
 Also confirm that the frontend can interact with the configured `BaseTimeStamp` contract.
 
 ## Usage
+
+Open the deployed application in a supported environment.
+
+Use the dashboard to create timestamp records on Base.
+
+Each successful interaction records a timestamp through the configured `BaseTimeStamp` contract.
+
+If the contract address or metadata configuration is incorrect, timestamp creation may fail.
