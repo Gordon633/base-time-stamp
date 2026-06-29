@@ -143,3 +143,11 @@ If changes do not appear in the deployed application, redeploy the frontend.
 If the frontend points to an outdated contract, update `lib/abi.ts` and redeploy.
 
 ## Notes
+
+This README describes the setup steps required by the current project configuration.
+
+Review the contract and frontend code before deploying changes to production.
+
+Keep deployment-specific values consistent across the contract, frontend, and base.dev configuration.
+
+Use the repository URL above as the source reference for the project.
