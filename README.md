@@ -44,3 +44,11 @@ Key files used during setup and deployment:
 - `lib/wagmi.ts`
 
 ## Setup
+
+Follow these steps to prepare the application for deployment.
+
+### 1. Deploy the contract
+
+Deploy `contracts/BaseTimeStamp.sol` on Base mainnet.
+
+After deployment, copy the deployed contract address.
