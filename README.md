@@ -52,3 +52,9 @@ Follow these steps to prepare the application for deployment.
 Deploy `contracts/BaseTimeStamp.sol` on Base mainnet.
 
 After deployment, copy the deployed contract address.
+
+This address is required by the frontend so it can call the correct contract.
+
+### 2. Configure the contract address
+
+Open `lib/abi.ts`.
