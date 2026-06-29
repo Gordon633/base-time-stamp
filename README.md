@@ -74,3 +74,11 @@ This value should match the app configuration used for the deployed frontend.
 ### 4. Configure builder attribution
 
 After receiving a builder code from base.dev, open `lib/wagmi.ts`.
+
+Set the value in the configuration:
+
+```ts
+BUILDER_CODE = "bc_..."
+```
+
+The app generates the ERC-8021 `dataSuffix` automatically from this value.
