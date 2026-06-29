@@ -128,3 +128,10 @@ Before considering the deployment complete, confirm the following:
 - `BUILDER_CODE` has been set in `lib/wagmi.ts`.
 - The frontend has been redeployed to Vercel.
 - The deployed application opens correctly.
+- Timestamp creation works through the dashboard.
+- Offchain attribution has been verified in base.dev.
+- Onchain attribution has been verified in base.dev.
+
+## Troubleshooting
+
+If timestamp creation does not work, first confirm that the contract address is correct.
