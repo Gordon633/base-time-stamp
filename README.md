@@ -66,3 +66,11 @@ Make sure the value points to the contract deployed on Base mainnet.
 ### 3. Configure app metadata
 
 Open `app/layout.tsx`.
+
+Update the hard-coded `base:app_id` meta tag with the correct app identifier for your deployment.
+
+This value should match the app configuration used for the deployed frontend.
+
+### 4. Configure builder attribution
+
+After receiving a builder code from base.dev, open `lib/wagmi.ts`.
